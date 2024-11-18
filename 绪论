@@ -1,0 +1,51 @@
+\subsection{绪论}
+\S \textbf{1}.\heiti{有理数域}
+\subsubsection{有理数域的稠密性(TC I.[2].2)}
+$\forall a\in\mathbb{Q}\forall b\in\mathbb{Q}\exists c\in\mathbb{Q}\left(a>b\land \left( a>c\land c>b \right)\right)$.
+\subsubsection{Archimedes公理(有理数)(TC I.[5].5)}
+不论$c>0$是怎样的数,总有大于$c$的自然数$n$存在着.\\
+\indent Archimedes:若在直线上给定任意两线段$A$及$B$,则$A$重复相加若干次后,其和总可以大于$B$:
+$$
+\underset{n\text{次}}{\underbrace{A+A+\cdots+A}}=A\cdot n >B.
+$$
+\S\textbf{2}\heiti{无理数的导入·实数域的序}
+\subsubsection{无理数的定义(TC I.[6].6)}
+$1^\circ\quad${\kaishu 任一有理数,必在且仅在有理数的非空集合$\boldsymbol{A}$及$\boldsymbol{A'}$二集之一中出现};\\
+\indent$2^\circ\quad${\kaishu 集$\boldsymbol{A}$内的任一数$a$,必小于集$\boldsymbol{A'}$的任一数$a'$}.\\
+\indent 集$\boldsymbol{A}$称为分划的{\heiti 下组},集$\boldsymbol{A'}$为{\heiti 上组}.分划记成$\boldsymbol{A}|\boldsymbol{A'}$.
+\subsubsection{实数域的稠密性(TC I.[8].9)}
+\textbf{Lemma 1}\quad$\forall \alpha\in\mathbb{R}\forall \beta\in\mathbb{R}\exists r\in\mathbb{Q}\left( \alpha>\beta\land  \alpha>r>\beta  \right)$.\\
+\indent \textbf{Lemma 2}\quad$\forall\alpha\in\mathbb{R}\forall\beta\in\mathbb{R}\forall\varepsilon>0\exists s\in\mathbb{Q}\exists s'\in\mathbb{Q}((s'>\alpha>s\land s'>\beta>s)\land s'-s<\varepsilon)\to \alpha=\beta$.
+\subsubsection{实数域的连续性(TC I.[10].12)}
+$1^\circ\quad${\kaishu 每一实数必落在集$\boldsymbol{A},\boldsymbol{A'}$中的一个且仅一个之内};\\
+\indent$2^\circ\quad$\kaishu{集$\boldsymbol{A}$的每一数$\alpha$小于集$\boldsymbol{A'}$的每一数$\alpha'$}.\\
+\indent {\heiti \bf{R. Dedekind}公理/完全性公理}\quad{\kaishu 对于实数域的任一分划$\boldsymbol{A}|\boldsymbol{A'}$必有产生这分划的实数$\beta$存在.这数$\beta$,1)或是下组$\boldsymbol{A}$内的最大数,2)或是上组$\boldsymbol{A'}$内的最小数}.
+\subsubsection{数集的界(TC I.[11].12)}
+$\forall x\in\mathcal{X}\exists\varepsilon>0(x-\varepsilon<x\leqslant M)\to M=\sup\{x\}=\sup\mathcal{X}$;\\
+\indent$\forall x\in\mathcal{X}\exists\varepsilon>0(m\leqslant x<x-\varepsilon)\to m=\inf\{x\}=\inf\mathcal{X}$.\\
+\indent (Latin: supremum \& infimum)\\
+\indent {\songti 集$\mathcal{X}$的{\heiti{上界}}定义为$\{M:\forall x\in\mathcal{X}(M>x)\},\sup\mathcal{X}:=\inf\{M\},${\heiti 下界}定义为$\{m:\forall x\in\mathcal{X}(m<x)\},\inf\mathcal{X}:=\sup\{m\}$}.\\
+\indent \textbf{Theorem}\quad{\kaishu 若集$\mathcal{X}=\{x\}$上(下)有界,则它必有上(下)确界.}\\
+\\
+\S\textbf{3.}\heiti{实数的算术运算}
+\subsubsection{Archimedes公理(实数)(TC I.[16].19)}
+$\forall \gamma\in\mathbb{R}\exists n\in\mathbb{N}(n>\gamma)$.
+\subsubsection{绝对值(TC I.[17].20)}
+\noindent
+\begin{gather*}
+||\alpha|-|\beta||\leqslant|\alpha\pm\beta|\leqslant|\alpha|+|\beta|,\\
+\left| \sum \alpha_k \right|\leqslant\sum \left| \alpha_k \right|.
+\end{gather*}
+\S\textbf{4.}\heiti{实数的其他性质及应用}
+\subsubsection{以任意实数为指数的幂(TC I.[19].22)}
+{\heiti 伯努利}(Jac. Bernoulli){\heiti 不等式}:{\kaishu 如果}$n\in\mathbb{N}_{>1}\land\gamma>1$,{\kaishu 则}
+\noindent
+$$
+\gamma^n>1+n(\gamma-1).
+$$
+\indent \songti 今设$\gamma=\alpha^\frac{1}{n}(\alpha>1)$,则得不等式
+\noindent
+$$
+\alpha^\frac{1}{n}-1<\frac{\alpha-1}{n}.
+$$
+\newpage
