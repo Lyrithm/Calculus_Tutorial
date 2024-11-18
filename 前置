@@ -1,0 +1,65 @@
+\documentclass[12pt, a4paper, oneside]{ctexart}
+\usepackage{silence, mathtools, afterpage, calc, titlesec, polyglossia, xintexpr, amsopn, etoolbox, fontspec, xeCJK, textcomp, geometry, lipsum, rotating, setspace, amsmath, amsthm, amssymb, graphicx, extarrows}
+\geometry{a4paper,hmargin=1in,vmargin=1.5in}
+\setcounter{section}{0}
+\titleformat{\section}
+  {\normalfont\Large\bfseries\centering}
+  {}
+  {0pt}
+  {\parbox{\textwidth}{\centering}}
+\newfontfamily{\cyrillicfont}{CMU Serif}
+\setotherlanguages{russian}
+\allowdisplaybreaks
+\WarningFilter{amsmath}{Foreign command}
+\let\d\relax
+\let\cal\relax
+\let\i\relax
+\let\l\relax
+\let\b\relax
+\let\leq\relax
+\let\geq\relax
+\let\a\relax
+\let\bf\relax
+\let\D\relax
+\DeclareMathOperator{\sh}{sh}
+\DeclareMathOperator{\ch}{ch}
+\DeclareMathOperator{\sgn}{sgn}
+\DeclareMathOperator{\sech}{sech}
+\DeclareMathOperator{\csch}{csch}
+\DeclareMathOperator{\arsech}{arsech}
+\DeclareMathOperator{\arcoth}{arcoth}
+\DeclareMathOperator{\arcsch}{arcsch}
+\DeclareMathOperator{\arccot}{arccot}
+\DeclareMathOperator{\arsinh}{arsinh}
+\DeclareMathOperator{\artanh}{artanh}
+\DeclareMathOperator{\arcosh}{arcosh}
+\newcommand{\D}{\Delta}
+\newcommand{\leq}{\leqslant}
+\newcommand{\geq}{\geqslant}
+\newcommand{\a}{\alpha}
+\newcommand{\b}{\beta}
+\newcommand{\vp}{\varphi}
+\newcommand{\ve}{\varepsilon}
+\newcommand{\l}[1]{\lim_{#1}}
+\newcommand{\s}[2]{\sum_{#1}^{#2}}
+\newcommand{\p}[2]{\prod_{#1}^{#2}}
+\newcommand{\i}[2]{\int_{#1}^{#2}}
+\newcommand{\B}{\mathrm{B}}
+\newcommand{\bf}{\textbf}
+\newcommand{\mbf}{\mathbf}
+\newcommand{\tx}{\text}
+\newcommand{\cal}{\mathcal}
+\newcommand{\d}{\mathrm{d}}
+\newcommand{\const}{\mathrm{const}}
+\newcommand{\oo}{\infty}
+\newcommand{\e}{\mathrm{e}}
+\newcommand{\I}{\mathrm{i}}
+\newcommand{\N}{\mathbb{N}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\Z}{\mathbb{Z}}
+\newcommand{\Q}{\mathbb{Q}}
+\newcommand{\C}{\mathbb{C}}
+\hbadness=10000
+\vbadness=10000
+\hfuzz=1000pt
+\vfuzz=1000pt
